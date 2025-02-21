@@ -19,7 +19,9 @@ const Navbar = () => {
           </Link>
           <nav className="flex items-center gap-x-4">
             <ThemeToggle />
-            <Button>Get Started</Button>
+            <Button asChild>
+              <Link href="/login">Get Started</Link>
+            </Button>
           </nav>
         </div>
       </div>
